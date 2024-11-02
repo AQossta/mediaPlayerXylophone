@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="509dp"
+        android:layout_height="871dp"
+        app:srcCompat="@drawable/noty"
+        tools:layout_editor_absoluteX="-29dp"
+        tools:layout_editor_absoluteY="-59dp" />
+
+    <Button
+        android:id="@+id/btnDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Do"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#9C27B0"
+        android:text="Re"
+        app:layout_constraintEnd_toEndOf="@+id/btnDo"
+        app:layout_constraintStart_toStartOf="@+id/btnDo"
+        app:layout_constraintTop_toBottomOf="@+id/btnDo" />
+
+    <Button
+        android:id="@+id/btnMi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#E91E63"
+        android:text="Mi"
+        app:layout_constraintEnd_toEndOf="@+id/btnRe"
+        app:layout_constraintStart_toStartOf="@+id/btnRe"
+        app:layout_constraintTop_toBottomOf="@+id/btnRe" />
+
+    <Button
+        android:id="@+id/btnFa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#C30A0A"
+        android:text="Fa"
+        app:layout_constraintEnd_toEndOf="@+id/btnMi"
+        app:layout_constraintStart_toStartOf="@+id/btnMi"
+        app:layout_constraintTop_toBottomOf="@+id/btnMi" />
+
+    <Button
+        android:id="@+id/btnSol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FF5722"
+        android:text="Sol"
+        app:layout_constraintEnd_toEndOf="@+id/btnFa"
+        app:layout_constraintStart_toStartOf="@+id/btnFa"
+        app:layout_constraintTop_toBottomOf="@+id/btnFa" />
+
+    <Button
+        android:id="@+id/btnLa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="La"
+        app:layout_constraintEnd_toEndOf="@+id/btnSol"
+        app:layout_constraintStart_toStartOf="@+id/btnSol"
+        app:layout_constraintTop_toBottomOf="@+id/btnSol" />
+
+    <Button
+        android:id="@+id/btnSi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Si"
+        app:layout_constraintEnd_toEndOf="@+id/btnLa"
+        app:layout_constraintStart_toStartOf="@+id/btnLa"
+        app:layout_constraintTop_toBottomOf="@+id/btnLa" />
+
+    <Button
+        android:id="@+id/btnDo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#009688"
+        android:text="Do"
+        app:layout_constraintEnd_toEndOf="@+id/btnSi"
+        app:layout_constraintStart_toStartOf="@+id/btnSi"
+        app:layout_constraintTop_toBottomOf="@+id/btnSi" />
+
+    <TextView
+        android:id="@+id/txtX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XYLOPHONE"
+        app:layout_constraintBottom_toTopOf="@+id/btnDo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
